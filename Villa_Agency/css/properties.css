@@ -1,0 +1,138 @@
+:root
+
+{
+    --font-base1 :"IcoFont";
+    --font-base2 :"FontAwesome";
+
+    --c-primary :#975af9;
+    --c-secondry :#46a7f8;
+    --c-background:#e6e6e6;
+    --c-dark :#2d2d2d;
+    --c-black :#0000;
+
+
+}
+
+
+.body
+{
+    font-family: var(--font-base1);
+    position: relative;
+    top: 100px;
+}
+
+/*------nav bar---------*/
+
+.nav
+{
+    border: solid 2px #063df260;
+    width: 1500px !important;
+    background-color: #dadff3fc !important;
+    box-shadow: 0.1px 5px 5px #7f8eb8;
+}
+
+.btn-primary
+{
+    background-color: var(--c-primary) !important;
+    color:#fdfdfd !important;
+    width:200px;
+    font-size:20px !important;
+
+}
+
+.btn-primary:hover
+{
+    background-color: var(--c-dark) !important;
+    color:#f8f1f1b8 !important;
+}
+
+.font
+{
+    color:#0c0101 !important;
+    font-size:20px !important;
+}
+
+
+/*-------property section---------*/
+.back-image
+{
+    width: 1295px !important;
+    height:550px !important;
+}
+
+.btn-primary1
+{
+    background-color: var(--c-secondry) !important;
+    color:#fdfdfd !important;
+    width:150px;
+    font-size:20px !important;
+   
+}
+
+
+.btn-primary1:hover
+{
+    background-color:black!important;
+    color:#fdfdfd !important;
+    width:150px;
+    font-size:20px !important;
+   
+
+
+}
+.cont-title
+{
+    position: absolute;
+    top: 200px;
+    left: 470px;
+    font-size: 100px;
+    color: #e6e6e6;
+    position:0px !important;
+    margin: 0px !important;
+    
+}
+    
+.cardTitle
+{
+   width:130px !important;
+   height: 26px;
+   background-color: #46a8f842;
+   border-radius:2%;
+}
+
+.cardTitle1
+{
+    padding-left :20px !important;
+   color: #0a3fdebd !important;
+}
+
+
+.end
+{
+    position: relative;
+    left:-12px;
+    background-color: #051eff47;
+    height: 100px;
+    width: 1320px;
+}
+
+.name
+{
+    font-family: 'Brush Script MT', cursive !important;
+    position: relative;
+    left: 1150px;
+    top: 70px;
+}
+
+a
+{
+    font-family: var(--font-base1);
+    cursor: auto;
+    
+}
+
+a:hover
+{
+    color: rgb(68, 22, 234) !important;
+}
+

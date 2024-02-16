@@ -1,0 +1,167 @@
+:root
+
+{
+    --font-base1 :"IcoFont";
+    --font-base2 :"FontAwesome";
+
+    --c-primary :#975af9;
+    --c-secondry :#46a7f8;
+    --c-background:#e6e6e6;
+    --c-dark :#2d2d2d;
+    --c-black :#0000;
+
+
+}
+
+
+.body
+{
+    font-family: var(--font-base1);
+    position: relative;
+    top: 100px;
+}
+
+/*------nav bar---------*/
+
+.nav
+{
+    border: solid 2px #063df260;
+    width: 1500px !important;
+    background-color: #dadff3fc !important;
+    box-shadow: 0.1px 5px 5px #7f8eb8;
+}
+.btn-primary
+{
+    background-color: var(--c-primary) !important;
+    color:#fdfdfd !important;
+    width:200px;
+    font-size:20px !important;
+
+}
+
+.btn-primary:hover
+{
+    background-color: var(--c-dark) !important;
+    color:#f8f1f1b8 !important;
+}
+
+.font
+{
+    color:#0c0101 !important;
+    font-size:20px !important;
+}
+
+
+/*-------CONTACT US section---------*/
+.back-image
+{
+    width: 1295px !important;
+    height:550px !important;
+}
+
+.cont-title
+{
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    font-size: 100px;
+    color: #e6e6e6;
+    position:0px !important;
+    margin: 0px !important;
+    
+}
+    
+
+.image-about
+{
+    width: 800px;
+    height: 500px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.word-about
+{
+    position: relative !important;
+    margin-top: 30px !important;
+    text-align: center;
+    
+}
+
+.word-about1
+{
+    position: relative !important;
+    margin-top: 70px !important;
+    margin-left: 15px;
+    
+    
+}
+
+
+
+.icon
+{
+    width:40px;
+    height: 40px;
+    position: relative !important;
+    margin: 18px;
+    margin-left: 30px ;
+    text-decoration-color: #975af9;
+    background-color: #975af9;
+}
+
+
+
+/*-------------Best section----------*/
+.btn-primary1
+{
+    background-color: var(--c-secondry) !important;
+    color:#fdfdfd !important;
+    width:200px;
+    font-size:20px !important;
+    
+
+}
+.btn-primary1:hover
+{
+    background-color: var(--c-dark) !important;
+    color:#f8f1f1b8 !important;
+}
+
+.best-word
+{
+  margin-top :80px !important;
+}
+
+
+.end
+{
+    position: relative;
+    left:-12px;
+    background-color: #051eff47;
+    height: 100px;
+    width: 1320px;
+}
+
+
+
+a
+{
+    font-family: var(--font-base1);
+    cursor: auto;
+    text-decoration: none !important;
+    
+}
+
+a:hover
+{
+    color: rgb(68, 22, 234) !important;
+}
+
+
+.name
+{
+    font-family: 'Brush Script MT', cursive !important;
+    position: relative;
+    left: 1150px;
+    top: 70px;
+}

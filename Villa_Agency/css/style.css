@@ -1,0 +1,249 @@
+:root
+
+{
+    --font-base1 :"IcoFont";
+    --font-base2 :"FontAwesome";
+
+    --c-primary :#975af9;
+    --c-secondry :#46a7f8;
+    --c-background:#e6e6e6;
+    --c-dark :#2d2d2d;
+    --c-black :#0000;
+
+
+}
+
+
+.body
+{
+    font-family: var(--font-base1);
+    position: relative;
+    top: 100px;
+}
+
+/*------nav bar---------*/
+
+.nav
+{
+    border: solid 2px #063df260;
+    width: 1500px !important;
+    background-color: #dadff3fc !important;
+    box-shadow: 0.1px 5px 5px #7f8eb8;
+}
+.btn-primary
+{
+    background-color: var(--c-primary) !important;
+    color:#fdfdfd !important;
+    width:200px;
+    font-size:20px !important;
+
+}
+
+.btn-primary:hover
+{
+    background-color: var(--c-dark) !important;
+    color:#f8f1f1b8 !important;
+}
+
+.font
+{
+    color:#0c0101 !important;
+    font-size:20px !important;
+}
+
+
+/*-------hero section-----*/
+
+ .image
+{
+    width: 400px;
+    height: 700px;
+    opacity:0.7;
+    animation-name: example1;
+    animation-duration: 3s;
+}
+
+@keyframes example1 {
+    from {opacity:0.1;}
+    to {opacity:0.7;}
+  }
+
+
+.word
+{
+    position: relative;
+    background-color: none;
+    text-align:left;
+    font-size: 80px;
+    color:rgba(255, 255, 255, 0.401);
+    font-weight: 700 !important;
+    
+
+    
+    animation-name: example;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+
+@keyframes example {
+    from {bottom: 0px;}
+    to {bottom: 100px; color: #080052;}
+  }
+
+
+/*-------about section-----*/
+.image-about
+{
+    width: 470px;
+    height: 470px;
+    border-right: solid 10px rgba(36, 36, 238, 0.368);
+    border-radius:10%;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.word-about
+{
+    position: relative !important;
+    margin-top: 30px !important;
+    text-align: center;
+    
+}
+
+.word-about1
+{
+    position: relative !important;
+    margin-top: 70px !important;
+    margin-left: 15px;
+    
+}
+
+.butt
+{
+   margin-top: 10px;
+   margin-left: 30PX;   
+}
+
+.icon
+{
+    width:40px;
+    height: 40px;
+    position: relative !important;
+    margin: 18px;
+    margin-left: 30px ;
+    text-decoration-color: #975af9;
+    background-color: #975af9;
+}
+
+/*-------------Best section----------*/
+
+.best-word
+{
+  margin-top :80px !important;
+}
+
+
+/*-------PROPERTIES section---------*/
+.cardTitle
+{
+   width:130px !important;
+   height: 25px;
+   background-color: #46a8f842;
+   border-radius:2%;
+}
+
+.cardTitle1
+{
+    padding-left :27px !important;
+   color: #0a3fdebd !important;
+}
+
+
+/*-------CONTACT US section---------*/
+.back-image
+{
+    width: 1295px !important;
+    height:500px !important;
+}
+
+.cont-title
+{
+    position: relative;
+    top: -400px;
+    left:200px !important;
+    color: #e6e6e6;
+}
+
+.form-style
+{  
+   width: 400px !important;
+   background-color: rgba(125, 174, 214, 0.545);
+}
+
+.butt1
+{
+    margin-left: 130px !important;
+}
+
+
+.frame
+{
+  position: relative;
+  top:-280px !important;
+}
+
+.icon1
+{ 
+    position: relative !important;
+    top:55px !important;
+    width:50px;
+    height: 50px;
+    margin: 18px;
+    margin-left: 30px ;
+}
+
+.icon-back1
+{
+
+    width:308px;
+    height: 150px;
+    background-color: #0a31f323 ;
+    box-shadow: 5px 10px 18px #888888;
+}
+.icon-back2
+{
+
+    width:450px !important;
+    height: 150px;
+    background-color:#0a31f313 ;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.end
+{
+    position: relative;
+    left:-12px;
+    background-color: #051eff47;
+    height: 100px;
+    width: 1320px;
+}
+
+
+a
+{
+    font-family: var(--font-base1);
+    cursor: auto;
+    
+}
+
+a:hover
+{
+    color: rgb(68, 22, 234) !important;
+}
+
+.name
+{
+    font-family: 'Brush Script MT', cursive !important;
+    position: relative;
+    left: 1150px;
+    top: 70px;
+}
